@@ -10,7 +10,7 @@ app.use(express.static(__dirname))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 mongoose.Promise = Promise 
-var dbUrl = 'mongodb+srv://Njonjo:ANKiroga23@cluster0.crg2p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+var dbUrl =
 
 var Message = mongoose.model('Message', {
     name: String,
